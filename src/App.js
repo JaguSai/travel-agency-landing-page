@@ -1,8 +1,23 @@
-import './App.css';
+import './App.scss';
+import Trip from './Components/Trip';
+import Clients from './Components/Clients';
+import Destinations from './Components/Destinations';
+import Footer from './Components/Footer';
+import Hero from './Components/Hero';
+import Navbar from './Components/Navbar';
+import Services from './Components/Services';
 
 function App() {
   return (
-    <h1>Hello</h1>
+    <>
+      <Navbar />
+      <Hero />
+      <Services />
+      <Destinations />
+      <Trip />
+      <Clients />
+      <Footer />
+    </>
   );
 }
 
