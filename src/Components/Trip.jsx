@@ -12,7 +12,7 @@ function Trip() {
                         {Trip_Data.map((trip, index) => {
                             return (
                                 <div className="trip-sub-content" key={index}>
-                                    <img src={trip.img} />
+                                    <img src={trip.img} alt="Trip"/>
                                     <div>
                                         <h4>{trip.title}</h4>
                                         <p>{trip.desc}</p>
@@ -22,7 +22,7 @@ function Trip() {
                         })}
                     </div>
                     <div className="trip_img">
-                        <img src={Trip_Img} />
+                        <img src={Trip_Img} alt="Trip" />
                     </div>
                 </div>
             </div>

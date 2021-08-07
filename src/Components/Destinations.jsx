@@ -12,7 +12,7 @@ function Destinations() {
                     {DestinationsData.map((destination, index) => {
                         return (
                             <div className="destination-card" key={index}>
-                                <div><img src={destination.img} /></div>
+                                <div><img src={destination.img} alt="Destination Image" /></div>
                                 <div className="destination-sub-card">
                                     <div className="destination-sub-card1">
                                         <p>{destination.location}</p>

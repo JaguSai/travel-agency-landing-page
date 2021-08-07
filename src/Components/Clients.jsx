@@ -13,12 +13,12 @@ function Clients() {
                     <h1>Our Clients</h1>
                 </div>
                 <div className="clients-wrapper">
-                    <img src={client1} alt="" />
-                    <img src={client2} alt="" />
-                    <img src={client3} alt="" />
-                    <img src={client4} alt="" />
-                    <img src={client5} alt="" />
-                    <img src={client6} alt="" />
+                    <img src={client1} alt="Client Image" />
+                    <img src={client2} alt="Client Image" />
+                    <img src={client3} alt="Client Image" />
+                    <img src={client4} alt="Client Image" />
+                    <img src={client5} alt="Client Image" />
+                    <img src={client6} alt="Client Image" />
                 </div>
             </div>
         </section>

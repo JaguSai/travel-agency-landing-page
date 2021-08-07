@@ -12,7 +12,7 @@ function Services() {
                     {ServicesData.map((services, index) => {
                         return (
                             <div className="service-card" key={index}>
-                                <img src={services.img} />
+                                <img src={services.img} alt="Services"/>
                                 <h2>{services.title}</h2>
                                 <p>{services.desc}</p>
                             </div>
