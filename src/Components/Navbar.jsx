@@ -12,7 +12,7 @@ function Navbar() {
                     <div className="collapse navbar-collapse nav-items" id="navbarSupportedContent">
                         <ul className="navbar-nav mx-auto mb-2 mb-lg-0">
                             <li className="nav-item">
-                                <a className="nav-link" href="#">Destinations</a>
+                                <a className="nav-link" href="#destinations">Destinations</a>
                             </li>
                             <li className="nav-item">
                                 <a className="nav-link" href="#services">Hotels</a>
@@ -24,13 +24,10 @@ function Navbar() {
                                 <a className="nav-link" href="#trips">Bookings</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="#">Login</a>
+                                <a className="nav-link" href="#home">Login</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="#">Sign Up</a>
-                            </li>
-                            <li className="nav-item">
-                                <a className="nav-link" href="#">EN</a>
+                                <a className="nav-link" href="#home">Sign Up</a>
                             </li>
                         </ul>
                     </div>
